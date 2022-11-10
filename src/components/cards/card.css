@@ -1,0 +1,60 @@
+.card{
+ 
+  height: 55rem;
+  position: relative;
+
+  border-radius: 5px;
+}
+
+.card .card_title{
+  height: 4rem;
+}
+
+.card .card_rel_date{
+  color: #ffba268b;
+  
+}
+
+.card .container_img{
+    height: 72.5%;
+    margin: 1rem;
+    background-color: black;
+}
+
+.card .vote_average{
+  position: absolute;
+
+  top: .6rem;
+  left: .6rem;
+
+  background-color: rgba(41, 41, 41, 0.823);
+  
+  
+
+  width: 3.6rem;
+  height: 3.6rem;
+  border-radius: 10px;
+}
+
+.card .vote_average.poor{
+ box-shadow: inset 3px 3px 0 0 red;
+}
+
+.card .vote_average.normal{
+  box-shadow: inset 3px 3px 0 0 yellow;
+ }
+
+ .card .vote_average.great{
+  box-shadow: inset 3px 3px 0 0 green;
+ }
+
+.card .card_img{
+  width: 100%;
+  height: 100%;
+}
+
+.card .card_btns button.checked{
+
+  box-shadow: inset 1rem 0px 0px 0px var(--primary-color);
+  
+}

@@ -1,0 +1,9 @@
+.error_pg{
+  min-height: 100vh;
+  width: 100%;
+
+  background-color: rgba(133, 133, 133, 0.745);
+}
+.error_pg h1{
+  padding-top: 20rem;
+}

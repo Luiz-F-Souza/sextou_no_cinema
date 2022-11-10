@@ -1,0 +1,11 @@
+@media (max-width: 1000px) {
+  
+  #details_container{
+    display: block;
+
+  }
+
+  #details_container section{
+    margin-bottom: 2rem;
+  }
+}

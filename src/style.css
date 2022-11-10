@@ -1,0 +1,290 @@
+/* @import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;1,400;1,500&display=swap'); */
+@import url('https://fonts.cdnfonts.com/css/garet');
+
+:root{
+  --primary-color: #FFBC26;
+  --dark-color: rgba(16, 16, 16, 0.922);
+}
+
+*,*::after,*::before{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html{
+  font-size: 62.5%;
+}
+
+.body,button{
+  /* font-family: '    Garamond', serif; */
+  font-family: 'Garet', sans-serif;
+}
+
+.body{
+  overflow-x: hidden;
+}
+
+.hidden{
+  display: none;
+}
+
+/* ------------------------------------- */
+/* LI STYLES */
+
+ul.no-style li{
+  list-style: none;
+}
+
+/* ------------------------------------- */
+/* FLEX STYLES */
+
+.flex{
+  display: flex;
+}
+
+
+/* ------------------------------------- */
+/* GRID STYLES */
+
+.grid{
+  display: grid;
+}
+
+  /* COLS */
+    .grid.col-1{
+      grid-template-columns: repeat(1,1fr);
+    }
+    .grid.col-2{
+      grid-template-columns: repeat(2,1fr);
+    }
+    .grid.col-3{
+      grid-template-columns: repeat(3,1fr);
+    }
+    .grid.col-4{
+      grid-template-columns: repeat(4,1fr);
+    }
+
+  /* COL SPAN */
+  .grid .span-2{
+    grid-column: span 2;
+  }
+
+
+/* ------------------------------------- */
+/* PADDING */
+
+.pdd-1{
+  padding: 1rem;
+}
+
+.pdd-2{
+  padding: 2rem;
+}
+
+.pdd-3{
+  padding: 3rem;
+}
+
+.pdd-5{
+  padding: 5rem;
+}
+
+.pddy-1{
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.pddy-2{
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.pddb-2{
+  padding-bottom: 2rem;
+}
+
+/* ------------------------------------- */
+/* GAP */
+
+.gap-1{
+  gap: 1rem;
+}
+.gap-2{
+  gap: 2rem;
+}
+
+.gap-4{
+  gap: 4rem;
+}
+
+.gapc-3{
+  column-gap: 3rem;
+}
+
+
+
+/* ------------------------------------- */
+/* FONT */
+
+  /* SIZE */
+    .fts-12{
+      font-size: 1.2rem;
+    }
+
+    .fts-14{
+      font-size: 1.4rem;
+    }
+
+    .fts-16{
+      font-size: 1.6rem;
+    }
+
+    .fts-20{
+      font-size: 2rem;
+    }
+
+    .fts-24{
+      font-size: 2.4rem;
+    }
+
+    .fts-28{
+      font-size: 2.8rem;
+    }
+
+  /* SIZE */
+    .ftc-fff{
+      color: white;
+    }
+    .ftc-dark{
+      color: var(--dark-color);
+    }
+    .ftc-primary{
+      color: var(--primary-color)
+    }
+
+/* ------------------------------------- */
+/* BACKGROUND */
+
+.bg-primary{
+  background-color: var(--primary-color);
+}
+
+.bg-dark{
+  background-color: var(--dark-color);
+}
+
+/* ------------------------------------- */
+/* BORDERS */
+
+.brd-none{
+  border: none;
+}
+
+.brd-1{
+  border: 1px solid black;
+}
+
+/* ------------------------------------- */
+/* TEXT DECORATION */
+
+.txt-dec-none{
+  text-decoration: none;
+}
+
+/* ------------------------------------- */
+/* HOVER EFFECTS */
+
+.hover-1:hover{
+  cursor: pointer;
+  box-shadow: 2px 1px 4px 1px rgba(0, 0, 0, 0.316);
+}
+
+/* ------------------------------------- */
+/* MARGINS */
+
+.ms-1{
+  margin-left: 1rem;
+}
+
+.me-1{
+  margin-right: 1rem;
+}
+
+
+
+.mt-2{
+  margin-top: 2rem;
+}
+
+.mt-5{
+  margin-top: 5rem;
+}
+
+.mb-2{
+   margin-bottom: 2rem;
+}
+
+/* ------------------------------------- */
+/* WIDTHS AND HEIGTHS */
+
+.w-16{
+  width: 1.6rem;
+}
+
+.h-16{
+  height: 1.6rem;
+}
+
+.w-28{
+  width: 2.8rem;
+}
+
+.h-28{
+  height: 2.8rem;
+}
+
+.w-32{
+  width: 3.2rem;
+}
+
+.h-32{
+  height: 3.2rem;
+}
+
+.w-100{
+  width: 100%;
+}
+
+.h-100{
+  height: 100%;
+}
+
+/* ------------------------------------- */
+/* ALIGNS */
+
+.txt-center{
+  text-align: center;
+}
+
+  /* ------------------------------------- */
+  /* ALIGN ITEMS */
+
+    .aligin-center{
+      align-items: center;
+    }
+
+  /* ------------------------------------- */
+  /* JUSTIFY CONTENT */
+
+    .j-sbtw{
+      justify-content: space-between;
+    }
+
+    .j-sard{
+      justify-content: space-around;
+    }
+
+    .j-c{
+      justify-content: center;
+    }
